@@ -1,0 +1,36 @@
+{
+    "systemMenuMock": {
+        "resultCode": 200,
+        "resultMessage": "OK",
+        "data": {
+            "list": [
+                {
+                    "name": "患者登记",
+                    "id": "sickEnce",
+                    "icon": "th-large",
+                    "sub": [
+                        {
+                            "name": "登记列表",
+                            "componentName": "/sickEnce/SickEnceList"
+                        },
+                        {
+                            "name": "病情统计",
+                            "componentName": "/sickEnce/SickEnceStatic"
+                        }
+                    ]
+                },
+                {
+                    "name": "系统配置",
+                    "id": "system",
+                    "icon": "cog",
+                    "sub": [
+                        {
+                            "name": "系统字典",
+                            "componentName": "/system/SystemDic"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

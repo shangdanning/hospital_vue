@@ -1,0 +1,32 @@
+{
+    "baseInfoMock": {
+        "resultCode": 200,
+        "resultMessage": "OK",
+        "data": {
+            "list": [
+                {
+                    "id": "123",
+                    "isFocus": 1,
+                    "peopleName": "张三",
+                    "credentialNo": "232330199310110010",
+                    "gender": "男",
+                    "nation": "汉族",
+                    "birthday": "1980-09-09",
+                    "householdAddress": " 户籍地址",
+                    "liveAddress": " 实际居住地址",
+                    "focus": "吸毒人员",
+                    "focusInfo": " 管控事由",
+                    "controlName": " 管控单位_公安机关名称",
+                    "dutyName": " 责任民警",
+                    "dutyPhoneNo": " 责任民警电话",
+                    "registerName": " 登记单位_公安机关",
+                    "registerTime": " 登记时间",
+                    "responsePicturePath": " 登记照片",
+                    "similarity": " 相似度",
+                    "operateUser": " 操作用户",
+                    "operateTime": " 操作时间"
+                }
+            ]
+        }
+    }
+}
